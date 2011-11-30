@@ -1059,7 +1059,6 @@ int ubifs_jnl_rename(struct ubifs_info *c, const struct inode *old_dir,
 
 out_release:
 	release_head(c, BASEHD);
-	kfree(dent);
 out_ro:
 	ubifs_ro_mode(c, err);
 	if (last_reference)

@@ -118,11 +118,8 @@ PS. 0 or other battery ID use the same parameters*/
 /* Battery ID = 1: HT-E/Formosa 1400mAh */
 #define BATT_ID_A				1
 #define BATT_FULL_MAH_A			1400
-#define BATT_FULL_MAH_DEFAULT	1500
-#define BATT_FULL_MAH_CAMERONSINO	2400
-#define BATT_ID_CAMERONSINO
-#define BATT_TYPE 0
 
+#define BATT_FULL_MAH_DEFAULT	1500
 
 /* Battery OVP and Charging stage define */
 #define BATT_GOOD_STATE			0
@@ -148,7 +145,6 @@ PS. 0 or other battery ID use the same parameters*/
 //#endif
 static struct ds2784_device_info htc_batt_info;
 static int htc_battery_initial;
-static int Batt_extended;
 static int Full_40;
 static int Full_30;
 static int Full_20;
@@ -163,12 +159,12 @@ static int Full_0;
 #define CHARGE_SLOW	1
 #define CHARGE_FAST	2
 
-#define TEMP_CRITICAL	800 /* no charging at all */
-#define TEMP_HOT	700 /* no fast charge, no charge > 4.1v */
-#define TEMP_WARM	650 /* no fast charge above this */
+#define TEMP_CRITICAL	600 /* no charging at all */
+#define TEMP_HOT	500 /* no fast charge, no charge > 4.1v */
+#define TEMP_WARM	450 /* no fast charge above this */
 
-#define TEMP_HOT_MAX_MV	4500 /* stop charging here when hot */
-#define TEMP_HOT_MIN_MV	4200 /* resume charging here when hot */
+#define TEMP_HOT_MAX_MV	4100 /* stop charging here when hot */
+#define TEMP_HOT_MIN_MV	3800 /* resume charging here when hot */
 
 #define TEMP_CRITICAL_BC	    570 /* no charging at all */
 #define TEMP_CRITICAL_RECHG_BC  550 /* recharge at 1.temp <= 55C and 2. Vb < 3.8V */
@@ -213,14 +209,11 @@ static int ds2784_blocking_notify(unsigned long val, void *v)
 
 	if (val == DS2784_CHARGING_CONTROL) {
 		chg_ctl = *(int *)v;
-		/* Droidzone */
-		/*pr_info("[HTC_BATT] Debug Dislaying Batt id1: %c\n", batt_id);*/
-		pr_info("[HTC_BATT] Debug Dislaying Batt id2: %c\n", htc_batt_info.rep.batt_id);
 		if (htc_batt_info.rep.batt_id == BATT_UNKNOWN) {
 			htc_batt_info.rep.charging_enabled = DISABLE;
 			chg_ctl = DISABLE;
 			v = DISABLE;
-			pr_info("[HTC_BATT] Unknown battery\n");
+			pr_info("[HTC_BATT] Unknow battery\n");
 		}
 
 		if (machine_is_passionc() || machine_is_bravoc()) {
@@ -254,7 +247,6 @@ int ds2784_get_battery_info(struct battery_info_reply *batt_info)
 	batt_info->charging_source = htc_batt_info.rep.charging_source;
 	batt_info->charging_enabled = htc_batt_info.rep.charging_enabled;
 	batt_info->full_bat = htc_batt_info.rep.acr;
-	/* pr_info("[HTC_BATT] Battery ID is %d\n", htc_batt_info.rep.batt_id); */
 /* DS2784 did not support this over vchg, but we need to have reply */
 	batt_info->over_vchg = 0;
 		return 0;
@@ -293,10 +285,8 @@ ssize_t htc_battery_show_attr(struct device_attribute *attr,
 		htc_batt_info.rep.full_level,
 		fake_temp
 		);
-	pr_info("[HTC_BATT] Battery ID is %d\n", htc_batt_info.rep.batt_id);
 	}
 	return len;
-	
 }
 
 static int cable_status_handler_func(struct notifier_block *nfb,
@@ -398,25 +388,8 @@ static int Calculate_Full_mAh(struct ds2784_device_info *di)
 	int Upper_Full = 0;
 	int Lower_Full = 0;
 	int Delta_temp = 0;
-	
-	if (Batt_extended == 1) {
-	      Full_mAh = BATT_FULL_MAH_CAMERONSINO;
-	      pr_info("[HTC_BATT] Extended Battery detected and Charge Characteristics set\n");
-	      pr_info("[HTC_BATT] Max Battery mAh is now set as %d\n", Full_mAh);
-	} else {	      
-	      Full_mAh = BATT_FULL_MAH_DEFAULT;
-	      pr_info("[HTC_BATT] Standard HTC Battery detected and Charge Characteristics set\n");
-	      pr_info("[HTC_BATT] Max Battery mAh is now set as %d\n", Full_mAh);
-	}
-	
-	
-	
-	/*  BATT_FULL_MAH_CAMERONSINO 
-	 Droidzone's Hack
-	 Full_mAh = BATT_FULL_MAH_CAMERONSINO;
-	 Batt_extended
-	 
-	 */
+
+	Full_mAh = BATT_FULL_MAH_DEFAULT;
 
 /* Only calculate at initial */
 	if (htc_battery_initial == 0) {
@@ -511,20 +484,12 @@ ONLY check when battery driver init.
 /*
 Get Rsns, get from offset 69H . Rsnsp=1/Rsns
 Judge if this is supported battery
-Extended Battery Charge Status fix by Droidzone
 */
 	mutex_lock(&htc_batt_info.lock);
-	if (di->raw[DS2784_REG_RSNSP] != BATT_RSNSP) {
-	      pr_info("batt: Extended unsupported battery detected\n");
-	      pr_info("batt: Re-enabling charge and status indicator - Droidzone\n");
-	      pr_info("batt: Battery check overridden\n");
-	      pr_info("batt: Dirty hack : Battery set as Cameron Sino\n");
-	      Batt_extended = 1;     	      
-	} else {
-	      Batt_extended = 0;
-	}
-	
-	htc_batt_info.rep.batt_id = BATT_FIRST_SOURCE;
+	if (di->raw[DS2784_REG_RSNSP] != BATT_RSNSP)
+		htc_batt_info.rep.batt_id = BATT_UNKNOWN;
+	else
+		htc_batt_info.rep.batt_id = BATT_FIRST_SOURCE;
 	mutex_unlock(&htc_batt_info.lock);
 
 /*
@@ -583,7 +548,6 @@ Get ACR and Active Empty
 /*
 Set to local for reply to framework
 */
-	pr_info("[HTC_BATT] Battery Debug 1 - Calculating Battery Stats\n");
 	htc_batt_info.rep.batt_current = di->current_mA;
 	htc_batt_info.rep.batt_current_avg = di->current_avg_mA;
 	htc_batt_info.rep.batt_temp = di->temp_C;
@@ -594,8 +558,6 @@ Set to local for reply to framework
 	htc_batt_info.rep.acr = di->acr;
 	htc_batt_info.rep.active_empty = di->active_empty;
 	htc_batt_info.rep.full_bat = Calculate_Full_mAh(di);
-	pr_info("[HTC_BATT] Battery Debug 2 - Full mAh value is %d\n", htc_batt_info.rep.full_bat);
-	/*pr_info("Battery Debug 1 - Calculating Battery Stats\n"*/
 
 
 	/* After battery driver gets initialized, send rpc request to inquiry
@@ -613,7 +575,6 @@ pr_info("[HTC_BATT]RSNSP=%d,RARC=%d,Vol=%dmV,Current=%dmA,Temp=%dC(1/10)\n"
 		,di->voltage_mV
 		,di->current_mA
 		,di->temp_C);
-pr_info("[HTC_BATT] Battery reported Full Value is %d mAh\n", htc_batt_info.rep.full_bat);
 	mutex_unlock(&htc_batt_info.lock);
 	return 0;
 }
@@ -910,19 +871,16 @@ if (machine_is_bravoc()) {
 	* user while we're maintaining a full charge
 	* (slowly draining to 95 and charging back
 	* to 100)
-	* 
-	* Modified by Sibere Battfix
-	* 
 	 */
 	if (htc_batt_info.rep.charging_source != 0) {
-		if (htc_batt_info.rep.level <= 99)
+		if (htc_batt_info.rep.level <= 95)
 			htc_batt_info.rep.battery_full = 0;
 
 		if (htc_batt_info.rep.battery_full)
-			charge_mode = CHARGE_SLOW;
+			charge_mode = CHARGE_OFF;
 		else if (htc_batt_info.rep.level == 100) {
 			htc_batt_info.rep.battery_full = 1;
-			charge_mode = CHARGE_SLOW;
+			charge_mode = CHARGE_OFF;
 		}
 	} else
 		htc_batt_info.rep.battery_full = 0;
@@ -1023,13 +981,13 @@ if (machine_is_bravoc()) {
 		htc_batt_info.rep.battery_full = 0;
 
 	if (htc_batt_info.rep.battery_full)
-		charge_mode = CHARGE_SLOW;
+		charge_mode = CHARGE_OFF;
 	else if ((htc_batt_info.rep.guage_status_reg & 0x80) &&
 	    (htc_batt_info.rep.batt_current <= 80) &&
 	    (htc_batt_info.rep.level == 100)) {
 	    	if (More_Charge_Extend_Time()) {
 				htc_batt_info.rep.battery_full = 1;
-			charge_mode = CHARGE_SLOW;
+			charge_mode = CHARGE_OFF;
 		}
 	}
 
