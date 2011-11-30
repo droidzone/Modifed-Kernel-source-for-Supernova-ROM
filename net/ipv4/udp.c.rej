@@ -1,0 +1,12 @@
+--- net/ipv4/udp.c
++++ net/ipv4/udp.c
+@@ -1206,6 +1206,9 @@
+ 
+ 	if (noblock)
+ 		return -EAGAIN;
++
++	/* starting over for a new packet */
++	msg->msg_flags &= ~MSG_TRUNC;
+ 	goto try_again;
+ }
+ 

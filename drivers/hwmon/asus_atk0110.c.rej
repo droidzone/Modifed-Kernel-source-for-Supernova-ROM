@@ -1,0 +1,10 @@
+--- drivers/hwmon/asus_atk0110.c
++++ drivers/hwmon/asus_atk0110.c
+@@ -655,6 +655,7 @@
+ 	else
+ 		err = -EIO;
+ 
++	ACPI_FREE(ret);
+ 	return err;
+ }
+ 

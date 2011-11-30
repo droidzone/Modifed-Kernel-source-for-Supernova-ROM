@@ -1,0 +1,10 @@
+--- mm/backing-dev.c
++++ mm/backing-dev.c
+@@ -646,6 +646,7 @@
+ void bdi_unregister(struct backing_dev_info *bdi)
+ {
+ 	if (bdi->dev) {
++		bdi_set_min_ratio(bdi, 0);
+ 		bdi_prune_sb(bdi);
+ 
+ 		if (!bdi_cap_flush_forker(bdi))

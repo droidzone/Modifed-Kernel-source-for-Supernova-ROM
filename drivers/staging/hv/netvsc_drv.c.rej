@@ -1,0 +1,11 @@
+--- drivers/staging/hv/netvsc_drv.c
++++ drivers/staging/hv/netvsc_drv.c
+@@ -45,7 +44,7 @@
+ struct net_device_context {
+ 	/* point back to our device context */
+ 	struct vm_device *device_ctx;
+-	atomic_t avail;
++	unsigned long avail;
+ 	struct work_struct work;
+ };
+ 

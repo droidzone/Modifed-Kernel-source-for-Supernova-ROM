@@ -1,0 +1,18 @@
+--- block/cfq-iosched.c
++++ block/cfq-iosched.c
+@@ -2615,8 +2615,14 @@
+ 	smp_wmb();
+ 	cic->key = cfqd_dead_key(cfqd);
+ 
+-	if (ioc->ioc_data == cic)
++	rcu_read_lock();
++	if (rcu_dereference(ioc->ioc_data) == cic) {
++		rcu_read_unlock();
++		spin_lock(&ioc->lock);
+ 		rcu_assign_pointer(ioc->ioc_data, NULL);
++		spin_unlock(&ioc->lock);
++	} else
++		rcu_read_unlock();
+ 
+ 	if (cic->cfqq[BLK_RW_ASYNC]) {
+ 		cfq_exit_cfqq(cfqd, cic->cfqq[BLK_RW_ASYNC]);

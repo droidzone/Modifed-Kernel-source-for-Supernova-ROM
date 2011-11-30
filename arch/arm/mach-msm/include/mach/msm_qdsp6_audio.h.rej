@@ -1,0 +1,10 @@
+--- arch/arm/mach-msm/include/mach/msm_qdsp6_audio.h
++++ arch/arm/mach-msm/include/mach/msm_qdsp6_audio.h
+@@ -25,6 +25,7 @@
+ 	void *data;
+ 	uint32_t size;
+ 	uint32_t used;	/* 1 = CPU is waiting for DSP to consume this buf */
++	uint32_t actual_size;
+ };
+ 
+ struct audio_client {

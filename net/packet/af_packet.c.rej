@@ -1,0 +1,18 @@
+--- net/packet/af_packet.c
++++ net/packet/af_packet.c
+@@ -757,6 +757,7 @@
+ 		h.h2->tp_sec = ts.tv_sec;
+ 		h.h2->tp_nsec = ts.tv_nsec;
+ 		h.h2->tp_vlan_tci = vlan_tx_tag_get(skb);
++		h.h2->tp_padding = 0;
+ 		hdrlen = sizeof(*h.h2);
+ 		break;
+ 	default:
+@@ -1678,6 +1679,7 @@
+ 		aux.tp_net = skb_network_offset(skb);
+ 		aux.tp_vlan_tci = vlan_tx_tag_get(skb);
+ 
++		aux.tp_padding = 0;
+ 		put_cmsg(msg, SOL_PACKET, PACKET_AUXDATA, sizeof(aux), &aux);
+ 	}
+ 

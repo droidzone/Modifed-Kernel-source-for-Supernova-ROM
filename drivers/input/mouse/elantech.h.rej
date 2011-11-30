@@ -1,0 +1,17 @@
+--- drivers/input/mouse/elantech.h
++++ drivers/input/mouse/elantech.h
+@@ -100,10 +100,11 @@
+ 	unsigned char reg_26;
+ 	unsigned char debug;
+ 	unsigned char capabilities;
+-	unsigned char paritycheck;
+-	unsigned char jumpy_cursor;
++	bool paritycheck;
++	bool jumpy_cursor;
+ 	unsigned char hw_version;
+-	unsigned int  fw_version;
++	unsigned int fw_version;
++	unsigned int single_finger_reports;
+ 	unsigned char parity[256];
+ };
+ 

@@ -1,0 +1,11 @@
+--- sound/soc/codecs/ak4642.c
++++ sound/soc/codecs/ak4642.c
+@@ -319,7 +319,7 @@
+ 	default:
+ 		return -EINVAL;
+ 	}
+-	snd_soc_update_bits(codec, PW_MGMT2, MS, data);
++	snd_soc_update_bits(codec, PW_MGMT2, MS | MCKO | PMPLL, data);
+ 	snd_soc_update_bits(codec, MD_CTL1, BCKO_MASK, bcko);
+ 
+ 	return 0;

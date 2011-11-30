@@ -1,0 +1,22 @@
+--- drivers/staging/rtl8192e/r8192E_core.c
++++ drivers/staging/rtl8192e/r8192E_core.c
+@@ -6334,6 +6334,7 @@
+ 	struct net_device *dev = NULL;
+ 	struct r8192_priv *priv= NULL;
+ 	u8 unit = 0;
++	u8 revisionid;
+ 
+ #ifdef CONFIG_RTL8192_IO_MAP
+ 	unsigned long pio_start, pio_len, pio_flags;
+@@ -6423,6 +6424,11 @@
+          pci_write_config_byte(pdev, 0x41, 0x00);
+ 
+ 
++	pci_read_config_byte(pdev, 0x08, &revisionid);
++	/* If the revisionid is 0x10, the device uses rtl8192se. */
++	if (pdev->device == 0x8192 && revisionid == 0x10)
++		goto fail1;
++
+ 	pci_read_config_byte(pdev, 0x05, &unit);
+ 	pci_write_config_byte(pdev, 0x05, unit & (~0x04));
+ 

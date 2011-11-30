@@ -1,0 +1,11 @@
+--- net/sunrpc/rpcb_clnt.c
++++ net/sunrpc/rpcb_clnt.c
+@@ -580,7 +580,7 @@
+ 	u32 bind_version;
+ 	struct rpc_xprt *xprt;
+ 	struct rpc_clnt	*rpcb_clnt;
+-	static struct rpcbind_args *map;
++	struct rpcbind_args *map;
+ 	struct rpc_task	*child;
+ 	struct sockaddr_storage addr;
+ 	struct sockaddr *sap = (struct sockaddr *)&addr;

@@ -1,0 +1,15 @@
+--- net/ipv6/udp.c
++++ net/ipv6/udp.c
+@@ -445,8 +445,11 @@
+ 	}
+ 	unlock_sock_fast(sk, slow);
+ 
+-	if (flags & MSG_DONTWAIT)
++	if (noblock)
+ 		return -EAGAIN;
++
++	/* starting over for a new packet */
++	msg->msg_flags &= ~MSG_TRUNC;
+ 	goto try_again;
+ }
+ 

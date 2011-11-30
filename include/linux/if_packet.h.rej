@@ -1,0 +1,18 @@
+--- include/linux/if_packet.h
++++ include/linux/if_packet.h
+@@ -61,6 +61,7 @@
+ 	__u16		tp_mac;
+ 	__u16		tp_net;
+ 	__u16		tp_vlan_tci;
++	__u16		tp_padding;
+ };
+ 
+ /* Rx ring - header status */
+@@ -99,6 +100,7 @@
+ 	__u32		tp_sec;
+ 	__u32		tp_nsec;
+ 	__u16		tp_vlan_tci;
++	__u16		tp_padding;
+ };
+ 
+ #define TPACKET2_HDRLEN		(TPACKET_ALIGN(sizeof(struct tpacket2_hdr)) + sizeof(struct sockaddr_ll))

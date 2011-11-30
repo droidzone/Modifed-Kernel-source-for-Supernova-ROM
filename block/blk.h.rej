@@ -1,0 +1,12 @@
+--- block/blk.h
++++ block/blk.h
+@@ -62,7 +62,8 @@
+ 				return rq;
+ 		}
+ 
+-		if (!q->elevator->ops->elevator_dispatch_fn(q, 0))
++		if (test_bit(QUEUE_FLAG_DEAD, &q->queue_flags) ||
++		    !q->elevator->ops->elevator_dispatch_fn(q, 0))
+ 			return NULL;
+ 	}
+ }

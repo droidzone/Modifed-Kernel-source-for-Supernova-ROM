@@ -1,0 +1,74 @@
+--- arch/arm/mach-msm/acpuclock-scorpion.c
++++ arch/arm/mach-msm/acpuclock-scorpion.c
+@@ -22,17 +22,21 @@
+ #include <linux/errno.h>
+ #include <linux/cpufreq.h>
+ #include <linux/regulator/consumer.h>
++#include <linux/regulator/driver.h>
+ 
+ #include <mach/board.h>
+ #include <mach/msm_iomap.h>
+ 
+ #include "acpuclock.h"
++#include "avs.h"
+ #include "proc_comm.h"
+ #include "clock.h"
++
+ #ifdef CONFIG_CPU_FREQ_VDD_LEVELS
+ #include "board-bravo.h"
+ #endif
+ 
++
+ #if 0
+ #define DEBUG(x...) pr_info(x)
+ #else
+@@ -155,7 +172,9 @@
+ 			continue;
+ 		}
+ 
+-		freq_table[i].frequency = acpu_freq_tbl[i].acpu_khz;
++		/* Take the fastest speed available at the specified VDD level */
++		/*if (vdd != acpu_freq_tbl[i + 1].vdd)*/
++			freq_table[i].frequency = acpu_freq_tbl[i].acpu_khz;
+ 	}
+ 
+ 	freq_table[i].index = i;
+@@ -491,6 +546,8 @@
+ 		break;
+ 	case 0x30:
+ 	case 0x00:
++		max_acpu_khz = 998400;
++		break;
+ 	case 0x10:
+ 		max_acpu_khz = 1190400;
+ 		break;
+@@ -639,20 +716,27 @@
+ 	drv_state.vdd_switch_time_us = clkdata->vdd_switch_time_us;
+ 	drv_state.power_collapse_khz = clkdata->power_collapse_khz;
+ 	drv_state.wait_for_irq_khz = clkdata->wait_for_irq_khz;
++	drv_state.acpu_set_vdd = acpu_set_vdd;
+ 
+ 	if (clkdata->mpll_khz)
+ 		acpu_mpll->acpu_khz = clkdata->mpll_khz;
+ 
+-	acpu_freq_tbl_fixup();
+ 	acpuclk_init();
+ 	acpuclk_init_cpufreq_table();
+ 	drv_state.clk_ebi1 = clk_get(NULL,"ebi1_clk");
+ #ifndef CONFIG_AXI_SCREEN_POLICY
+ 	clk_set_rate(drv_state.clk_ebi1, drv_state.current_speed->axiclk_khz * 1000);
+ #endif
++#ifdef CONFIG_MSM_CPU_AVS
++       if (!acpu_avs_init(drv_state.acpu_set_vdd,
++               drv_state.current_speed->acpu_khz)) {
++               /* avs init successful. avs will handle voltage changes */
++               drv_state.acpu_set_vdd = NULL;
++       }
++#endif
+ }
+ 
+-#ifdef CONFIG_CPU_FREQ_VDD_LEVELS
++#if defined(CONFIG_CPU_FREQ_VDD_LEVELS) && !defined(CONFIG_MSM_CPU_AVS)
+ 
+ ssize_t acpuclk_get_vdd_levels_str(char *buf)
+ {

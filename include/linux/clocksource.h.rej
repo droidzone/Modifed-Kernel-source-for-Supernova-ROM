@@ -1,0 +1,10 @@
+--- include/linux/clocksource.h
++++ include/linux/clocksource.h
+@@ -192,6 +192,7 @@
+ #ifdef CONFIG_CLOCKSOURCE_WATCHDOG
+ 	/* Watchdog related data, used by the framework */
+ 	struct list_head wd_list;
++	cycle_t cs_last;
+ 	cycle_t wd_last;
+ #endif
+ };

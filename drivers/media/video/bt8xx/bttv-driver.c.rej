@@ -1,0 +1,11 @@
+--- drivers/media/video/bt8xx/bttv-driver.c
++++ drivers/media/video/bt8xx/bttv-driver.c
+@@ -3525,7 +3525,7 @@
+ 	if (0 != t->index)
+ 		return -EINVAL;
+ 
+-	bttv_call_all(btv, tuner, g_tuner, t);
++	bttv_call_all(btv, tuner, s_tuner, t);
+ 	return 0;
+ }
+ 

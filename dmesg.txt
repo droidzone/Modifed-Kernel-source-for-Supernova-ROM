@@ -1,0 +1,1084 @@
+.010803] [GSNR] Gsensor disable
+<6>[21913.306182] bravo_ts_power: power 0
+<7>[21913.306365] __capella_cm3602_power: Turn the capella_cm3602 power off
+<6>[21913.320037] [DISP]lcdc_suspend: suspending
+<6>[21913.320251] [R] early_suspend: sync
+<4>[21913.369537] save exit: isCheckpointed 1
+<6>[21913.467193] [R] early_suspend end
+<6>[21913.840332] [R] suspend start
+<6>[21913.841522] PM: Syncing filesystems ... done.
+<6>[21913.842681] sleep_stat.1: 864733ms 1630 864733ms 1630 - 16 7 202 - 0 0 - 0 0 0 0 0(2011-11-06 01:46:43.244039181 UTC)
+<4>[21913.842864] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21913.860626] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21913.888244] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21913.889892] mmc1: msmsdcc_suspend enter
+<6>[21913.890106] bravo_sdslot_switchvdd: Disabling SD slot power
+<6>[21913.890594] mmc1: msmsdcc_suspend leave
+<6>[21913.890777] mmc0: msmsdcc_suspend enter
+<6>[21913.890899] mmc0: msmsdcc_suspend leave
+<6>[21913.891113] PM: suspend of devices complete after 9.826 msecs
+<6>[21913.898925] [GSNR] Gsensor disable
+<6>[21913.899078] PM: late suspend of devices complete after 7.781 msecs
+<6>[21913.899078] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21913.899078] [R] suspend end
+<6>[21913.899078] [R] resume start
+<6>[21913.899078] SMEM_APPS_DEM_SLAVE_DATA: 568s 2010000 0 0 1 0 3000005d 2 RPCCALL 29
+<6>[21913.899078] wakeup wake lock: SMD_RPCCALL
+<6>[21913.903381] [GSNR] Gsensor enable
+<6>[21913.909301] PM: early resume of devices complete after 9.887 msecs
+<6>[21913.909667] mmc0: msmsdcc_resume enter
+<6>[21913.909912] mmc0: msmsdcc_resume leave
+<6>[21913.910034] mmc1: msmsdcc_resume enter
+<6>[21913.910278] mmc1: msmsdcc_resume leave
+<3>[21913.913269] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21913.916259] PM: resume of devices complete after 6.681 msecs
+<4>[21913.917114] Restarting tasks ... done.
+<6>[21913.925903] sleep_stat.2: 864733ms 1630 864733ms 1630 - 16 7 202 - 0 0 - 0 0 0 0 0(2011-11-06 01:46:47.509946123 UTC)
+<6>[21913.926116] suspend: exit suspend, ret = 0 (2011-11-06 01:46:47.510190199 UTC)
+<6>[21913.926300] [R] resume end
+<6>[21913.926391] [R] suspend start
+<6>[21913.927642] PM: Syncing filesystems ... done.
+<6>[21913.929107] sleep_stat.1: 864733ms 1630 864733ms 1630 - 16 7 202 - 0 0 - 0 0 0 0 0(2011-11-06 01:46:47.513180138 UTC)
+<4>[21913.929321] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21913.950622] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21913.980529] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21913.983734] mmc1: msmsdcc_suspend enter
+<6>[21913.984039] mmc1: msmsdcc_suspend leave
+<6>[21913.984130] mmc0: msmsdcc_suspend enter
+<6>[21913.984344] mmc0: msmsdcc_suspend leave
+<6>[21913.984649] PM: suspend of devices complete after 13.600 msecs
+<6>[21913.994262] [GSNR] Gsensor disable
+<6>[21913.994415] PM: late suspend of devices complete after 9.667 msecs
+<6>[21913.994415] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21913.994415] [R] suspend end
+<6>[21913.994415] [R] resume start
+<6>[21913.994415] SMEM_APPS_DEM_SLAVE_DATA: 564s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21913.994415] wakeup wake lock: SMD_DATA5
+<6>[21913.998748] [GSNR] Gsensor enable
+<6>[21914.004364] PM: early resume of devices complete after 9.576 msecs
+<6>[21914.004699] mmc0: msmsdcc_resume enter
+<6>[21914.004943] mmc0: msmsdcc_resume leave
+<6>[21914.005035] mmc1: msmsdcc_resume enter
+<6>[21914.005279] mmc1: msmsdcc_resume leave
+<3>[21914.007049] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21914.009185] PM: resume of devices complete after 4.574 msecs
+<4>[21914.010040] Restarting tasks ... done.
+<6>[21914.035247] sleep_stat.2: 864733ms 1630 864733ms 1630 - 16 7 203 - 0 0 - 0 0 0 0 0(2011-11-06 01:47:34.526286382 UTC)
+<6>[21914.035888] suspend: exit suspend, ret = 0 (2011-11-06 01:47:34.526499839 UTC)
+<6>[21914.036071] [R] resume end
+<6>[21914.036956] [R] suspend start
+<6>[21914.122192] batt: Battery check overridden
+<6>[21914.122467] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=241C(1/10)
+<6>[21914.701293] [R] suspend start
+<6>[21914.702484] PM: Syncing filesystems ... done.
+<6>[21914.703643] sleep_stat.1: 864733ms 1630 864733ms 1630 - 16 7 203 - 0 0 - 0 0 0 0 0(2011-11-06 01:47:35.194382028 UTC)
+<4>[21914.703826] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21914.720489] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21914.747528] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21914.749237] mmc1: msmsdcc_suspend enter
+<6>[21914.749420] mmc1: msmsdcc_suspend leave
+<6>[21914.749511] mmc0: msmsdcc_suspend enter
+<6>[21914.749786] mmc0: msmsdcc_suspend leave
+<6>[21914.750091] PM: suspend of devices complete after 8.571 msecs
+<6>[21914.759704] [GSNR] Gsensor disable
+<6>[21914.759948] PM: late suspend of devices complete after 9.730 msecs
+<6>[21914.760070] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21914.760070] [R] suspend end
+<6>[21914.760070] [R] resume start
+<6>[21914.760070] SMEM_APPS_DEM_SLAVE_DATA: 592s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21914.760070] wakeup wake lock: SMD_DATA5
+<6>[21914.764465] [GSNR] Gsensor enable
+<6>[21914.770202] PM: early resume of devices complete after 9.730 msecs
+<6>[21914.770446] mmc0: msmsdcc_resume enter
+<6>[21914.770690] mmc0: msmsdcc_resume leave
+<6>[21914.770874] mmc1: msmsdcc_resume enter
+<6>[21914.771057] mmc1: msmsdcc_resume leave
+<3>[21914.775665] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21914.778228] PM: resume of devices complete after 7.870 msecs
+<4>[21914.778961] Restarting tasks ... done.
+<6>[21914.799987] sleep_stat.2: 864733ms 1630 864733ms 1630 - 16 7 206 - 0 0 - 0 0 0 0 0(2011-11-06 01:49:06.521991075 UTC)
+<6>[21914.803405] suspend: exit suspend, ret = 0 (2011-11-06 01:49:06.525406460 UTC)
+<6>[21914.803497] [R] resume end
+<6>[21914.803619] [R] suspend start
+<6>[21914.892333] batt: Battery check overridden
+<6>[21914.892456] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=243C(1/10)
+<6>[21915.441528] [R] suspend start
+<6>[21915.442626] PM: Syncing filesystems ... done.
+<6>[21915.443786] sleep_stat.1: 864733ms 1630 864733ms 1630 - 16 7 206 - 0 0 - 0 0 0 0 0(2011-11-06 01:49:07.165476885 UTC)
+<4>[21915.444000] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21915.460662] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<3>[21915.492797] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21915.497009] mmc1: msmsdcc_suspend enter
+<6>[21915.497222] mmc1: msmsdcc_suspend leave
+<6>[21915.497406] mmc0: msmsdcc_suspend enter
+<6>[21915.497619] mmc0: msmsdcc_suspend leave
+<6>[21915.497833] PM: suspend of devices complete after 15.984 msecs
+<6>[21915.507141] [GSNR] Gsensor disable
+<6>[21915.507293] PM: late suspend of devices complete after 9.273 msecs
+<6>[21915.507293] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21915.507293] [R] suspend end
+<6>[21915.507293] [R] resume start
+<6>[21915.507293] SMEM_APPS_DEM_SLAVE_DATA: 592s 2010000 0 0 1 0 3000005d 2 RPCCALL 29
+<6>[21915.507293] wakeup wake lock: SMD_RPCCALL
+<6>[21915.511230] [GSNR] Gsensor enable
+<6>[21915.517150] PM: early resume of devices complete after 9.547 msecs
+<6>[21915.517425] mmc0: msmsdcc_resume enter
+<6>[21915.517730] mmc0: msmsdcc_resume leave
+<6>[21915.517852] mmc1: msmsdcc_resume enter
+<6>[21915.518005] mmc1: msmsdcc_resume leave
+<3>[21915.521179] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21915.524261] PM: resume of devices complete after 6.893 msecs
+<4>[21915.525115] Restarting tasks ... done.
+<6>[21915.533203] sleep_stat.2: 864733ms 1630 864733ms 1630 - 16 7 208 - 0 0 - 0 0 0 0 0(2011-11-06 01:49:16.509210000 UTC)
+<6>[21915.533386] suspend: exit suspend, ret = 0 (2011-11-06 01:49:16.509423477 UTC)
+<6>[21915.533569] [R] resume end
+<6>[21915.533660] [R] suspend start
+<6>[21915.534820] PM: Syncing filesystems ... done.
+<6>[21915.536010] sleep_stat.1: 864733ms 1630 864733ms 1630 - 16 7 208 - 0 0 - 0 0 0 0 0(2011-11-06 01:49:16.512015695 UTC)
+<4>[21915.536224] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21915.560699] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21915.592376] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21915.595336] mmc1: msmsdcc_suspend enter
+<6>[21915.595581] mmc1: msmsdcc_suspend leave
+<6>[21915.595764] mmc0: msmsdcc_suspend enter
+<6>[21915.595947] mmc0: msmsdcc_suspend leave
+<6>[21915.596160] PM: suspend of devices complete after 14.943 msecs
+<6>[21915.605865] [GSNR] Gsensor disable
+<6>[21915.606018] PM: late suspend of devices complete after 9.667 msecs
+<6>[21915.606018] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21915.606018] [R] suspend end
+<6>[21915.606018] [R] resume start
+<6>[21915.606018] SMEM_APPS_DEM_SLAVE_DATA: 582s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21915.606018] wakeup wake lock: SMD_DATA5
+<6>[21915.610046] [GSNR] Gsensor enable
+<6>[21915.616027] PM: early resume of devices complete after 9.545 msecs
+<6>[21915.616363] mmc0: msmsdcc_resume enter
+<6>[21915.616577] mmc0: msmsdcc_resume leave
+<6>[21915.616699] mmc1: msmsdcc_resume enter
+<6>[21915.616943] mmc1: msmsdcc_resume leave
+<3>[21915.618621] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21915.620330] PM: resume of devices complete after 4.056 msecs
+<4>[21915.621093] Restarting tasks ... done.
+<6>[21915.650024] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 209 - 0 0 - 0 0 0 0 0(2011-11-06 01:49:51.529883159 UTC)
+<6>[21915.650207] suspend: exit suspend, ret = 0 (2011-11-06 01:49:51.530096615 UTC)
+<6>[21915.650390] [R] resume end
+<6>[21915.651306] [R] suspend start
+<6>[21916.100311] [R] suspend start
+<4>[21916.139953] save exit: isCheckpointed 1
+<6>[21916.141052] PM: Syncing filesystems ... done.
+<6>[21916.142211] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 209 - 0 0 - 0 0 0 0 0(2011-11-06 01:49:52.021836717 UTC)
+<4>[21916.142395] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21916.160797] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21916.192565] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21916.196899] mmc1: msmsdcc_suspend enter
+<6>[21916.197113] mmc1: msmsdcc_suspend leave
+<6>[21916.197204] mmc0: msmsdcc_suspend enter
+<6>[21916.197479] mmc0: msmsdcc_suspend leave
+<6>[21916.197723] PM: suspend of devices complete after 16.507 msecs
+<6>[21916.207031] [GSNR] Gsensor disable
+<6>[21916.207183] PM: late suspend of devices complete after 9.276 msecs
+<6>[21916.207183] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21916.207183] [R] suspend end
+<6>[21916.207183] [R] resume start
+<6>[21916.207183] SMEM_APPS_DEM_SLAVE_DATA: 547s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21916.207183] wakeup wake lock: SMD_DATA5
+<6>[21916.211486] [GSNR] Gsensor enable
+<6>[21916.217559] PM: early resume of devices complete after 10.069 msecs
+<6>[21916.217834] mmc0: msmsdcc_resume enter
+<6>[21916.218139] mmc0: msmsdcc_resume leave
+<6>[21916.218261] mmc1: msmsdcc_resume enter
+<6>[21916.218414] mmc1: msmsdcc_resume leave
+<3>[21916.221679] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21916.226104] PM: resume of devices complete after 8.327 msecs
+<4>[21916.226928] Restarting tasks ... done.
+<6>[21916.247497] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 213 - 0 0 - 0 0 0 0 0(2011-11-06 01:52:34.521713058 UTC)
+<6>[21916.253234] suspend: exit suspend, ret = 0 (2011-11-06 01:52:34.527476389 UTC)
+<6>[21916.253356] [R] resume end
+<6>[21916.253540] [R] suspend start
+<6>[21916.328277] batt: Battery check overridden
+<6>[21916.328399] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=241C(1/10)
+<6>[21916.881378] [R] suspend start
+<6>[21916.882476] PM: Syncing filesystems ... done.
+<6>[21916.883728] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 213 - 0 0 - 0 0 0 0 0(2011-11-06 01:52:35.157683436 UTC)
+<4>[21916.883911] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21916.900451] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21916.932312] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21916.936370] mmc1: msmsdcc_suspend enter
+<6>[21916.936676] mmc1: msmsdcc_suspend leave
+<6>[21916.936767] mmc0: msmsdcc_suspend enter
+<6>[21916.936981] mmc0: msmsdcc_suspend leave
+<6>[21916.937286] PM: suspend of devices complete after 16.074 msecs
+<6>[21916.946624] [GSNR] Gsensor disable
+<6>[21916.946807] PM: late suspend of devices complete after 9.394 msecs
+<6>[21916.946807] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21916.946807] [R] suspend end
+<6>[21916.946807] [R] resume start
+<6>[21916.946807] SMEM_APPS_DEM_SLAVE_DATA: 407s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21916.946807] wakeup wake lock: SMD_DATA5
+<6>[21916.950775] [GSNR] Gsensor enable
+<6>[21916.956787] PM: early resume of devices complete after 9.638 msecs
+<6>[21916.957122] mmc0: msmsdcc_resume enter
+<6>[21916.957366] mmc0: msmsdcc_resume leave
+<6>[21916.957489] mmc1: msmsdcc_resume enter
+<6>[21916.957733] mmc1: msmsdcc_resume leave
+<3>[21916.961090] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21916.965057] PM: resume of devices complete after 7.990 msecs
+<4>[21916.965942] Restarting tasks ... done.
+<6>[21916.985595] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 219 - 0 0 - 0 0 0 0 0(2011-11-06 01:55:32.520796776 UTC)
+<6>[21916.986633] suspend: exit suspend, ret = 0 (2011-11-06 01:55:32.521010222 UTC)
+<6>[21916.986816] [R] resume end
+<6>[21916.986938] [R] suspend start
+<6>[21917.068786] batt: Battery check overridden
+<6>[21917.069000] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=243C(1/10)
+<4>[21917.142700] mmc1: Starting deferred resume
+<6>[21917.148681] bravo_sdslot_switchvdd: Setting level to 2850 (Success)
+<4>[21917.491790] mmc1: high speed mode max_dtr = 50000000
+<6>[21917.492340] mmc1: Deferred resume completed
+<6>[21918.020507] [R] suspend start
+<6>[21918.074218] PM: Syncing filesystems ... done.
+<6>[21918.075469] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 219 - 0 0 - 0 0 0 0 0(2011-11-06 01:55:33.610262140 UTC)
+<4>[21918.075683] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21918.100982] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21918.122161] msm_i2c msm_i2c.0: error, status 43c8		(18,00,01)(18,00,01)(cnt:1,pos:0)
+<3>[21918.122375] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,00,01)
+<3>[21918.122619] msm_i2c msm_i2c.0: error, status 63c8		(18,D2,00)(18,00,01)(cnt:2,pos:0)
+<3>[21918.122863] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,D2,00)
+<4>[21918.123016] ds2482 0-0018: i2c write d2 f0 failed, -5, retries left 5
+<3>[21918.123352] msm_i2c msm_i2c.0: error, status 43c8		(18,D2,00)(18,D2,00)(cnt:2,pos:0)
+<3>[21918.123565] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,D2,00)
+<4>[21918.123718] ds2482 0-0018: i2c write d2 f0 failed, -5, retries left 4
+<3>[21918.124023] msm_i2c msm_i2c.0: error, status 63c8		(18,D2,00)(18,D2,00)(cnt:2,pos:0)
+<3>[21918.124267] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,D2,00)
+<4>[21918.124389] ds2482 0-0018: i2c write d2 f0 failed, -5, retries left 3
+<3>[21918.124725] msm_i2c msm_i2c.0: error, status 43c8		(18,D2,00)(18,D2,00)(cnt:2,pos:0)
+<3>[21918.124847] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,D2,00)
+<4>[21918.125122] ds2482 0-0018: i2c write d2 f0 failed, -5, retries left 2
+<3>[21918.125427] msm_i2c msm_i2c.0: error, status 43c8		(18,D2,00)(18,D2,00)(cnt:2,pos:0)
+<3>[21918.125640] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,D2,00)
+<4>[21918.125885] ds2482 0-0018: i2c write d2 f0 failed, -5, retries left 1
+<3>[21918.126129] msm_i2c msm_i2c.0: error, status 43c8		(18,D2,00)(18,D2,00)(cnt:2,pos:0)
+<3>[21918.126342] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,D2,00)
+<4>[21918.126647] ds2482 0-0018: i2c write d2 f0 failed, -5, retries left 0
+<3>[21918.126892] msm_i2c msm_i2c.0: error, status 43c8		(18,00,01)(18,D2,00)(cnt:1,pos:0)
+<3>[21918.127563] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,00,01)
+<3>[21918.127838] msm_i2c msm_i2c.0: error, status 63c8		(18,A5,00)(18,00,01)(cnt:2,pos:0)
+<3>[21918.127960] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,A5,00)
+<4>[21918.128173] ds2482 0-0018: i2c write a5 f0 failed, -5, retries left 5
+<3>[21918.128417] msm_i2c msm_i2c.0: error, status 43c8		(18,A5,00)(18,A5,00)(cnt:2,pos:0)
+<3>[21918.128692] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,A5,00)
+<4>[21918.128936] ds2482 0-0018: i2c write a5 f0 failed, -5, retries left 4
+<3>[21918.129577] curcial_oj_poweron:OJ	power	enable(0)
+<3>[21918.129943] msm_i2c msm_i2c.0: error, status 43c8		(18,A5,00)(66,30,01)(cnt:2,pos:0)
+<3>[21918.130126] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,A5,00)
+<4>[21918.130371] ds2482 0-0018: i2c write a5 f0 failed, -5, retries left 3
+<3>[21918.130676] msm_i2c msm_i2c.0: error, status 43c8		(18,A5,00)(18,A5,00)(cnt:2,pos:0)
+<3>[21918.130889] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,A5,00)
+<6>[21918.131591] mmc1: msmsdcc_suspend enter
+<6>[21918.131774] bravo_sdslot_switchvdd: Disabling SD slot power
+<6>[21918.132324] mmc1: msmsdcc_suspend leave
+<6>[21918.132446] mmc0: msmsdcc_suspend enter
+<6>[21918.132568] mmc0: msmsdcc_suspend leave
+<6>[21918.132873] PM: suspend of devices complete after 11.014 msecs
+<4>[21918.133239] ds2482 0-0018: i2c write a5 f0 failed, -5, retries left 2
+<3>[21918.133575] msm_i2c msm_i2c.0: error, status 63c8		(18,A5,00)(18,A5,00)(cnt:2,pos:0)
+<3>[21918.133697] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,A5,00)
+<4>[21918.133911] ds2482 0-0018: i2c write a5 f0 failed, -5, retries left 1
+<3>[21918.134155] msm_i2c msm_i2c.0: error, status 43c8		(18,A5,00)(18,A5,00)(cnt:2,pos:0)
+<3>[21918.134399] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,A5,00)
+<4>[21918.134613] ds2482 0-0018: i2c write a5 f0 failed, -5, retries left 0
+<3>[21918.134857] msm_i2c msm_i2c.0: error, status 43c8		(18,00,01)(18,A5,00)(cnt:1,pos:0)
+<3>[21918.135070] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,00,01)
+<3>[21918.135803] msm_i2c msm_i2c.0: error, status 43c8		(18,78,00)(66,74,00)(cnt:2,pos:0)
+<3>[21918.135925] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,78,00)
+<4>[21918.136169] ds2482 0-0018: i2c write 78 0 failed, -5, retries left 5
+<3>[21918.136413] msm_i2c msm_i2c.0: error, status 43c8		(18,78,00)(18,78,00)(cnt:2,pos:0)
+<3>[21918.136596] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,78,00)
+<4>[21918.136871] ds2482 0-0018: i2c write 78 0 failed, -5, retries left 4
+<3>[21918.137603] msm_i2c msm_i2c.0: error, status 43c8		(18,78,00)(66,75,01)(cnt:2,pos:0)
+<3>[21918.137786] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,78,00)
+<4>[21918.138000] ds2482 0-0018: i2c write 78 0 failed, -5, retries left 3
+<3>[21918.138244] msm_i2c msm_i2c.0: error, status 43c8		(18,78,00)(18,78,00)(cnt:2,pos:0)
+<3>[21918.138427] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,78,00)
+<4>[21918.138610] ds2482 0-0018: i2c write 78 0 failed, -5, retries left 2
+<3>[21918.139282] msm_i2c msm_i2c.0: error, status 43c8		(18,78,00)(66,73,00)(cnt:2,pos:0)
+<3>[21918.139495] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,78,00)
+<4>[21918.139617] ds2482 0-0018: i2c write 78 0 failed, -5, retries left 1
+<3>[21918.139953] msm_i2c msm_i2c.0: error, status 43c8		(18,78,00)(18,78,00)(cnt:2,pos:0)
+<3>[21918.140075] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,78,00)
+<4>[21918.140289] ds2482 0-0018: i2c write 78 0 failed, -5, retries left 0
+<3>[21918.141265] msm_i2c msm_i2c.0: error, status 43c8		(18,00,01)(66,24,01)(cnt:1,pos:0)
+<3>[21918.141387] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,00,01)
+<3>[21918.141723] msm_i2c msm_i2c.0: error, status 43c8		(18,B4,00)(18,00,01)(cnt:1,pos:0)
+<3>[21918.141937] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,B4,00)
+<4>[21918.142059] ds2482 0-0018: i2c write b4 failed, -5, retries left 5
+<6>[21918.142700] [GSNR] Gsensor disable
+<3>[21918.143005] msm_i2c msm_i2c.0: error, status 63c8		(18,B4,00)(66,21,00)(cnt:1,pos:0)
+<3>[21918.143218] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,B4,00)
+<6>[21918.143371] PM: late suspend of devices complete after 10.403 msecs
+<6>[21918.143371] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21918.143371] [R] suspend end
+<6>[21918.143371] [R] resume start
+<6>[21918.143371] SMEM_APPS_DEM_SLAVE_DATA: 228s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21918.143371] wakeup wake lock: SMD_DATA5
+<4>[21918.143890] ds2482 0-0018: i2c write b4 failed, -5, retries left 4
+<3>[21918.144195] msm_i2c msm_i2c.0: error, status c8		(18,B4,00)(18,B4,00)(cnt:1,pos:0)
+<3>[21918.144409] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,B4,00)
+<4>[21918.144653] ds2482 0-0018: i2c write b4 failed, -5, retries left 3
+<3>[21918.144897] msm_i2c msm_i2c.0: error, status 43c8		(18,B4,00)(18,B4,00)(cnt:1,pos:0)
+<3>[21918.145080] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,B4,00)
+<4>[21918.145263] ds2482 0-0018: i2c write b4 failed, -5, retries left 2
+<3>[21918.146057] msm_i2c msm_i2c.0: error, status 43c8		(18,B4,00)(66,24,01)(cnt:1,pos:0)
+<3>[21918.146270] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,B4,00)
+<4>[21918.146392] ds2482 0-0018: i2c write b4 failed, -5, retries left 1
+<3>[21918.146728] msm_i2c msm_i2c.0: error, status 43c8		(18,B4,00)(18,B4,00)(cnt:1,pos:0)
+<3>[21918.146820] msm_i2c msm_i2c.0: Error during data xfer (-5) 		(18,B4,00)
+<4>[21918.147094] ds2482 0-0018: i2c write b4 failed, -5, retries left 0
+<6>[21918.147552] [GSNR] Gsensor enable
+<6>[21918.153167] PM: early resume of devices complete after 9.397 msecs
+<6>[21918.153442] mmc0: msmsdcc_resume enter
+<6>[21918.153747] mmc0: msmsdcc_resume leave
+<6>[21918.153839] mmc1: msmsdcc_resume enter
+<6>[21918.153991] mmc1: msmsdcc_resume leave
+<3>[21918.157409] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21918.161285] PM: resume of devices complete after 7.932 msecs
+<4>[21918.162170] Restarting tasks ... done.
+<6>[21918.183532] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:56:37.522509866 UTC)
+<6>[21918.183807] suspend: exit suspend, ret = 0 (2011-11-06 01:56:37.522814809 UTC)
+<6>[21918.183990] [R] resume end
+<6>[21918.184539] [R] suspend start
+<6>[21918.275909] batt: Battery check overridden
+<6>[21918.276031] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=241C(1/10)
+<4>[21918.342346] mmc1: Starting deferred resume
+<6>[21918.348327] bravo_sdslot_switchvdd: Setting level to 2850 (Success)
+<4>[21918.690917] mmc1: high speed mode max_dtr = 50000000
+<6>[21918.691375] mmc1: Deferred resume completed
+<6>[21918.927764] [R] suspend start
+<6>[21918.987091] PM: Syncing filesystems ... 
+<4>[21919.028564] save exit: isCheckpointed 1
+<4>[21919.038604] done.
+<6>[21919.038757] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:56:38.377368480 UTC)
+<4>[21919.038940] Freezing user space processes ... 
+<3>[21919.044158] Freezing of user space  aborted
+<4>[21919.044982] 
+<4>[21919.045104] Restarting tasks ... done.
+<6>[21919.057495] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:56:38.396129614 UTC)
+<6>[21919.057708] suspend: exit suspend, ret = -16 (2011-11-06 01:56:38.396343156 UTC)
+<6>[21919.057891] [R] resume end
+<6>[21924.103393] pcm_out: open
+<6>[21924.103698] acdb: 588 bytes for device 607, rate 48000.
+<6>[21924.233673] Audio: bravo_speaker_enable 1
+<6>[21928.774353] Audio: bravo_speaker_enable 0
+<6>[21928.787048] pcm_out: release
+<6>[21928.787323] [R] suspend start
+<6>[21928.869842] PM: Syncing filesystems ... done.
+<6>[21928.871124] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:56:48.209493334 UTC)
+<4>[21928.871307] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21928.891448] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21928.921783] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21928.926300] mmc1: msmsdcc_suspend enter
+<6>[21928.926452] bravo_sdslot_switchvdd: Disabling SD slot power
+<6>[21928.927154] mmc1: msmsdcc_suspend leave
+<6>[21928.927246] mmc0: msmsdcc_suspend enter
+<6>[21928.927398] mmc0: msmsdcc_suspend leave
+<6>[21928.927703] PM: suspend of devices complete after 15.899 msecs
+<6>[21928.937316] [GSNR] Gsensor disable
+<6>[21928.937469] PM: late suspend of devices complete after 9.674 msecs
+<6>[21928.937469] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21928.937469] [R] suspend end
+<6>[21928.937469] [R] resume start
+<6>[21928.937469] SMEM_APPS_DEM_SLAVE_DATA: 20s 2010000 0 0 8 0 30000048 7 RPCCALL 29
+<6>[21928.941070] [GSNR] Gsensor enable
+<6>[21928.946990] PM: early resume of devices complete after 9.490 msecs
+<6>[21928.947265] mmc0: msmsdcc_resume enter
+<6>[21928.947570] mmc0: msmsdcc_resume leave
+<6>[21928.947692] mmc1: msmsdcc_resume enter
+<6>[21928.947845] mmc1: msmsdcc_resume leave
+<6>[21928.950653] wakeup wake lock: SMD_RPCCALL
+<3>[21928.951080] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21928.954040] PM: resume of devices complete after 6.835 msecs
+<4>[21928.954833] Restarting tasks ... done.
+<6>[21928.976226] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:07.522453482 UTC)
+<6>[21928.976409] suspend: exit suspend, ret = 0 (2011-11-06 01:57:07.522666993 UTC)
+<6>[21928.976593] [R] resume end
+<6>[21928.976684] [R] suspend start
+<6>[21929.601989] [R] suspend start
+<6>[21929.603179] PM: Syncing filesystems ... done.
+<6>[21929.604339] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:08.150271049 UTC)
+<4>[21929.604522] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21929.621215] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21929.648101] pm_op(): platform_pm_suspend+0x0/0x64 returns -16
+<3>[21929.648345] PM: Device alarm failed to suspend: error -16
+<3>[21929.648437] PM: Some devices failed to suspend
+<6>[21929.649047] PM: resume of devices complete after 0.427 msecs
+<4>[21929.649719] Restarting tasks ... done.
+<6>[21929.657592] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:08.203498425 UTC)
+<6>[21929.657775] suspend: exit suspend, ret = -16 (2011-11-06 01:57:08.203711949 UTC)
+<6>[21929.657958] [R] resume end
+<6>[21929.658081] [R] suspend start
+<6>[21929.858032] [R] suspend start
+<6>[21929.859130] PM: Syncing filesystems ... done.
+<6>[21929.860290] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:08.406113545 UTC)
+<4>[21929.860473] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21929.881561] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21929.908172] pm_op(): platform_pm_suspend+0x0/0x64 returns -16
+<3>[21929.908386] PM: Device alarm failed to suspend: error -16
+<3>[21929.908477] PM: Some devices failed to suspend
+<6>[21929.909088] PM: resume of devices complete after 0.427 msecs
+<4>[21929.909729] Restarting tasks ... done.
+<6>[21929.917724] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:08.463529421 UTC)
+<6>[21929.917907] suspend: exit suspend, ret = -16 (2011-11-06 01:57:08.463742979 UTC)
+<6>[21929.918029] [R] resume end
+<6>[21929.918121] [R] suspend start
+<6>[21930.141632] [R] suspend start
+<6>[21930.142730] PM: Syncing filesystems ... done.
+<6>[21930.143890] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:08.689636450 UTC)
+<4>[21930.144104] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21930.161285] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21930.192718] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21930.196105] mmc1: msmsdcc_suspend enter
+<6>[21930.196228] mmc1: msmsdcc_suspend leave
+<6>[21930.196411] mmc0: msmsdcc_suspend enter
+<6>[21930.196533] mmc0: msmsdcc_suspend leave
+<6>[21930.196777] PM: suspend of devices complete after 14.645 msecs
+<6>[21930.206085] [GSNR] Gsensor disable
+<6>[21930.206237] PM: late suspend of devices complete after 9.275 msecs
+<6>[21930.206237] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21930.206237] [R] suspend end
+<6>[21930.206237] [R] resume start
+<6>[21930.206237] SMEM_APPS_DEM_SLAVE_DATA: 133s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21930.206237] wakeup wake lock: SMD_DATA5
+<6>[21930.210632] [GSNR] Gsensor enable
+<6>[21930.216644] PM: early resume of devices complete after 9.946 msecs
+<6>[21930.216888] mmc0: msmsdcc_resume enter
+<6>[21930.217193] mmc0: msmsdcc_resume leave
+<6>[21930.217315] mmc1: msmsdcc_resume enter
+<6>[21930.217468] mmc1: msmsdcc_resume leave
+<3>[21930.220855] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21930.225463] PM: resume of devices complete after 8.632 msecs
+<4>[21930.226318] Restarting tasks ... done.
+<6>[21930.236267] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:08.782291694 UTC)
+<6>[21930.236450] suspend: exit suspend, ret = 0 (2011-11-06 01:57:08.782505151 UTC)
+<6>[21930.236633] [R] resume end
+<6>[21930.236755] [R] suspend start
+<6>[21930.701110] [R] suspend start
+<6>[21930.702239] PM: Syncing filesystems ... done.
+<6>[21930.703460] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:09.249247466 UTC)
+<4>[21930.703674] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21930.721221] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21930.754852] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21930.758270] mmc1: msmsdcc_suspend enter
+<6>[21930.758575] mmc1: msmsdcc_suspend leave
+<6>[21930.758666] mmc0: msmsdcc_suspend enter
+<6>[21930.758880] mmc0: msmsdcc_suspend leave
+<6>[21930.759185] PM: suspend of devices complete after 16.812 msecs
+<6>[21930.768829] [GSNR] Gsensor disable
+<6>[21930.768981] PM: late suspend of devices complete after 9.703 msecs
+<6>[21930.768981] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21930.768981] [R] suspend end
+<6>[21930.768981] [R] resume start
+<6>[21930.768981] SMEM_APPS_DEM_SLAVE_DATA: 133s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21930.768981] wakeup wake lock: SMD_DATA5
+<6>[21930.773315] [GSNR] Gsensor enable
+<6>[21930.779327] PM: early resume of devices complete after 10.008 msecs
+<6>[21930.779693] mmc0: msmsdcc_resume enter
+<6>[21930.779907] mmc0: msmsdcc_resume leave
+<6>[21930.780029] mmc1: msmsdcc_resume enter
+<6>[21930.780303] mmc1: msmsdcc_resume leave
+<3>[21930.783630] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21930.787170] PM: resume of devices complete after 7.563 msecs
+<4>[21930.787933] Restarting tasks ... done.
+<6>[21930.796051] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:11.509149203 UTC)
+<6>[21930.796234] suspend: exit suspend, ret = 0 (2011-11-06 01:57:11.509362684 UTC)
+<6>[21930.796417] [R] resume end
+<6>[21930.796539] [R] suspend start
+<4>[21932.010681] mmc1: Starting deferred resume
+<6>[21932.016784] bravo_sdslot_switchvdd: Setting level to 2850 (Success)
+<4>[21932.371917] mmc1: high speed mode max_dtr = 50000000
+<6>[21932.372467] mmc1: Deferred resume completed
+<6>[21932.501434] [R] suspend start
+<6>[21932.662597] PM: Syncing filesystems ... done.
+<6>[21932.663879] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:13.376408388 UTC)
+<4>[21932.664093] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21932.681549] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21932.713348] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21932.718170] mmc1: msmsdcc_suspend enter
+<6>[21932.718414] bravo_sdslot_switchvdd: Disabling SD slot power
+<6>[21932.719055] mmc1: msmsdcc_suspend leave
+<6>[21932.719238] mmc0: msmsdcc_suspend enter
+<6>[21932.719360] mmc0: msmsdcc_suspend leave
+<6>[21932.719573] PM: suspend of devices complete after 17.271 msecs
+<6>[21932.729278] [GSNR] Gsensor disable
+<6>[21932.729431] PM: late suspend of devices complete after 9.673 msecs
+<6>[21932.729431] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21932.729431] [R] suspend end
+<6>[21932.729431] [R] resume start
+<6>[21932.729431] SMEM_APPS_DEM_SLAVE_DATA: 129s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21932.729431] wakeup wake lock: SMD_DATA5
+<6>[21932.733367] [GSNR] Gsensor enable
+<6>[21932.739013] PM: early resume of devices complete after 9.215 msecs
+<6>[21932.739257] mmc0: msmsdcc_resume enter
+<6>[21932.739593] mmc0: msmsdcc_resume leave
+<6>[21932.739685] mmc1: msmsdcc_resume enter
+<6>[21932.739868] mmc1: msmsdcc_resume leave
+<3>[21932.743041] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21932.747406] PM: resume of devices complete after 8.237 msecs
+<4>[21932.748260] Restarting tasks ... done.
+<6>[21932.756622] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:13.469414343 UTC)
+<6>[21932.756805] suspend: exit suspend, ret = 0 (2011-11-06 01:57:13.469627840 UTC)
+<6>[21932.756988] [R] resume end
+<6>[21932.757080] [R] suspend start
+<6>[21933.221405] [R] suspend start
+<6>[21933.222503] PM: Syncing filesystems ... done.
+<6>[21933.223754] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:13.936313240 UTC)
+<4>[21933.223937] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21933.241516] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21933.273529] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21933.277343] mmc1: msmsdcc_suspend enter
+<6>[21933.277648] mmc1: msmsdcc_suspend leave
+<6>[21933.277740] mmc0: msmsdcc_suspend enter
+<6>[21933.277954] mmc0: msmsdcc_suspend leave
+<6>[21933.278259] PM: suspend of devices complete after 16.018 msecs
+<6>[21933.287536] [GSNR] Gsensor disable
+<6>[21933.287719] PM: late suspend of devices complete after 9.306 msecs
+<6>[21933.287719] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21933.287719] [R] suspend end
+<6>[21933.287719] [R] resume start
+<6>[21933.287719] SMEM_APPS_DEM_SLAVE_DATA: 128s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21933.287719] wakeup wake lock: SMD_DATA5
+<6>[21933.291656] [GSNR] Gsensor enable
+<6>[21933.297637] PM: early resume of devices complete after 9.580 msecs
+<6>[21933.297973] mmc0: msmsdcc_resume enter
+<6>[21933.298187] mmc0: msmsdcc_resume leave
+<6>[21933.298309] mmc1: msmsdcc_resume enter
+<6>[21933.298553] mmc1: msmsdcc_resume leave
+<3>[21933.302093] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21933.307312] PM: resume of devices complete after 9.425 msecs
+<4>[21933.308166] Restarting tasks ... done.
+<6>[21933.316589] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:34.509575913 UTC)
+<6>[21933.316772] suspend: exit suspend, ret = 0 (2011-11-06 01:57:34.509789389 UTC)
+<6>[21933.317047] [R] resume end
+<6>[21933.317138] [R] suspend start
+<6>[21933.399627] batt: Battery check overridden
+<6>[21933.399841] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=243C(1/10)
+<6>[21933.781402] [R] suspend start
+<6>[21933.782592] PM: Syncing filesystems ... done.
+<6>[21933.783752] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:57:34.976496054 UTC)
+<4>[21933.783935] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21933.801605] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21933.829803] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21933.831939] mmc1: msmsdcc_suspend enter
+<6>[21933.832153] mmc1: msmsdcc_suspend leave
+<6>[21933.832244] mmc0: msmsdcc_suspend enter
+<6>[21933.832550] mmc0: msmsdcc_suspend leave
+<6>[21933.832763] PM: suspend of devices complete after 10.465 msecs
+<6>[21933.842071] [GSNR] Gsensor disable
+<6>[21933.842224] PM: late suspend of devices complete after 9.275 msecs
+<6>[21933.842224] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21933.842224] [R] suspend end
+<6>[21933.842224] [R] resume start
+<6>[21933.842224] SMEM_APPS_DEM_SLAVE_DATA: 107s 2010000 0 0 8 0 30000048 7 RPCCALL 29
+<6>[21933.846221] [GSNR] Gsensor enable
+<6>[21933.851806] PM: early resume of devices complete after 9.550 msecs
+<6>[21933.852172] mmc0: msmsdcc_resume enter
+<6>[21933.852386] mmc0: msmsdcc_resume leave
+<6>[21933.852508] mmc1: msmsdcc_resume enter
+<6>[21933.852752] mmc1: msmsdcc_resume leave
+<6>[21933.855468] wakeup wake lock: SMD_RPCCALL
+<3>[21933.855865] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21933.858947] PM: resume of devices complete after 6.865 msecs
+<4>[21933.859741] Restarting tasks ... done.
+<6>[21933.879791] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:59:21.521140578 UTC)
+<6>[21933.880004] suspend: exit suspend, ret = 0 (2011-11-06 01:59:21.521354054 UTC)
+<6>[21933.881286] [R] resume end
+<6>[21933.881469] [R] suspend start
+<6>[21933.963073] batt: Battery check overridden
+<6>[21933.963195] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=241C(1/10)
+<6>[21934.552520] [R] suspend start
+<6>[21934.553619] PM: Syncing filesystems ... done.
+<6>[21934.554809] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:59:22.195847080 UTC)
+<4>[21934.555023] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21934.571685] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21934.597412] pm_op(): platform_pm_suspend+0x0/0x64 returns -16
+<3>[21934.597534] PM: Device alarm failed to suspend: error -16
+<3>[21934.597717] PM: Some devices failed to suspend
+<6>[21934.598236] PM: resume of devices complete after 0.427 msecs
+<4>[21934.598968] Restarting tasks ... done.
+<6>[21934.606719] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:59:22.247703473 UTC)
+<6>[21934.606933] suspend: exit suspend, ret = -16 (2011-11-06 01:59:22.247917003 UTC)
+<6>[21934.607025] [R] resume end
+<6>[21934.607208] [R] suspend start
+<6>[21934.975799] [R] suspend start
+<6>[21934.977294] PM: Syncing filesystems ... done.
+<6>[21934.982391] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:59:22.623280083 UTC)
+<4>[21934.982604] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21935.002166] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21935.028778] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21935.030334] mmc1: msmsdcc_suspend enter
+<6>[21935.030517] mmc1: msmsdcc_suspend leave
+<6>[21935.030639] mmc0: msmsdcc_suspend enter
+<6>[21935.030761] mmc0: msmsdcc_suspend leave
+<6>[21935.031036] PM: suspend of devices complete after 8.085 msecs
+<6>[21935.040985] [GSNR] Gsensor disable
+<6>[21935.041137] PM: late suspend of devices complete after 9.977 msecs
+<6>[21935.041351] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21935.041351] [R] suspend end
+<6>[21935.041351] [R] resume start
+<6>[21935.041351] SMEM_APPS_DEM_SLAVE_DATA: 17s 2010000 0 0 8 0 30000048 7 RPCCALL 29
+<6>[21935.045379] [GSNR] Gsensor enable
+<6>[21935.051300] PM: early resume of devices complete after 9.916 msecs
+<6>[21935.051605] mmc0: msmsdcc_resume enter
+<6>[21935.051910] mmc0: msmsdcc_resume leave
+<6>[21935.052032] mmc1: msmsdcc_resume enter
+<6>[21935.052185] mmc1: msmsdcc_resume leave
+<6>[21935.055175] wakeup wake lock: SMD_RPCCALL
+<3>[21935.055603] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21935.058898] PM: resume of devices complete after 7.381 msecs
+<4>[21935.059753] Restarting tasks ... done.
+<6>[21935.078765] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:59:39.520160686 UTC)
+<6>[21935.078948] suspend: exit suspend, ret = 0 (2011-11-06 01:59:39.520374151 UTC)
+<6>[21935.079132] [R] resume end
+<6>[21935.079223] [R] suspend start
+<6>[21935.592956] [R] suspend start
+<6>[21935.594146] PM: Syncing filesystems ... done.
+<6>[21935.595306] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:59:40.036436579 UTC)
+<4>[21935.595520] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21935.612121] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21935.642150] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21935.645141] mmc1: msmsdcc_suspend enter
+<6>[21935.645324] mmc1: msmsdcc_suspend leave
+<6>[21935.645446] mmc0: msmsdcc_suspend enter
+<6>[21935.645721] mmc0: msmsdcc_suspend leave
+<6>[21935.645935] PM: suspend of devices complete after 13.115 msecs
+<6>[21935.655548] [GSNR] Gsensor disable
+<3>[21935.655822] pm_noirq_op(): platform_pm_suspend_noirq+0x0/0x48 returns -11
+<3>[21935.655914] PM: Device power.0 failed to suspend late: error -11
+<6>[21935.659973] [GSNR] Gsensor enable
+<6>[21935.665863] PM: early resume of devices complete after 9.760 msecs
+<3>[21935.666076] PM: Some devices failed to power down
+<6>[21935.666259] mmc0: msmsdcc_resume enter
+<6>[21935.666503] mmc0: msmsdcc_resume leave
+<6>[21935.666687] mmc1: msmsdcc_resume enter
+<6>[21935.666839] mmc1: msmsdcc_resume leave
+<6>[21935.669860] wakeup wake lock: SMD_RPCCALL
+<3>[21935.670349] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21935.673309] PM: resume of devices complete after 7.076 msecs
+<4>[21935.674133] Restarting tasks ... done.
+<6>[21935.692382] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:59:40.133463825 UTC)
+<6>[21935.692565] suspend: exit suspend, ret = 0 (2011-11-06 01:59:40.133677349 UTC)
+<6>[21935.692749] [R] resume end
+<4>[21935.771331] mmc1: Starting deferred resume
+<6>[21935.777221] bravo_sdslot_switchvdd: Setting level to 2850 (Success)
+<6>[21935.785400] [R] suspend start
+<4>[21935.827880] save exit: isCheckpointed 1
+<4>[21936.123016] mmc1: high speed mode max_dtr = 50000000
+<6>[21936.123596] mmc1: Deferred resume completed
+<6>[21936.211975] PM: Syncing filesystems ... done.
+<6>[21936.268920] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 7 221 - 0 0 - 0 0 0 0 0(2011-11-06 01:59:40.709824909 UTC)
+<4>[21936.269012] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21936.292633] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21936.322387] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21936.325592] mmc1: msmsdcc_suspend enter
+<6>[21936.325744] bravo_sdslot_switchvdd: Disabling SD slot power
+<6>[21936.326263] mmc1: msmsdcc_suspend leave
+<6>[21936.326354] mmc0: msmsdcc_suspend enter
+<6>[21936.326629] mmc0: msmsdcc_suspend leave
+<6>[21936.326873] PM: suspend of devices complete after 13.822 msecs
+<6>[21936.336120] [GSNR] Gsensor disable
+<6>[21936.336273] PM: late suspend of devices complete after 9.214 msecs
+<6>[21936.336273] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21936.336273] [R] suspend end
+<6>[21936.336273] [R] resume start
+<6>[21936.336273] SMEM_APPS_DEM_SLAVE_DATA: 573s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21936.336273] wakeup wake lock: SMD_DATA5
+<6>[21936.340637] [GSNR] Gsensor enable
+<6>[21936.346038] PM: early resume of devices complete after 9.397 msecs
+<6>[21936.346313] mmc0: msmsdcc_resume enter
+<6>[21936.346527] mmc0: msmsdcc_resume leave
+<6>[21936.346710] mmc1: msmsdcc_resume enter
+<6>[21936.346862] mmc1: msmsdcc_resume leave
+<3>[21936.350311] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21936.352874] PM: resume of devices complete after 6.620 msecs
+<4>[21936.353607] Restarting tasks ... done.
+<6>[21936.393554] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 221 - 0 0 - 0 0 0 0 0(2011-11-06 02:00:44.540893250 UTC)
+<6>[21936.395233] suspend: exit suspend, ret = 0 (2011-11-06 02:00:44.542570364 UTC)
+<6>[21936.395446] [R] resume end
+<6>[21936.395629] [R] suspend start
+<6>[21936.498443] batt: Battery check overridden
+<6>[21936.498565] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=246C(1/10)
+<4>[21936.702697] mmc1: Starting deferred resume
+<6>[21936.708587] bravo_sdslot_switchvdd: Setting level to 2850 (Success)
+<4>[21937.052825] mmc1: high speed mode max_dtr = 50000000
+<6>[21937.053314] mmc1: Deferred resume completed
+<6>[21937.123352] [R] suspend start
+<4>[21937.166931] save exit: isCheckpointed 1
+<6>[21937.345611] PM: Syncing filesystems ... done.
+<6>[21937.516296] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 8 221 - 0 0 - 0 0 0 0 0(2011-11-06 02:00:45.663197901 UTC)
+<4>[21937.516510] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21937.532562] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<3>[21937.565368] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21937.568725] mmc1: msmsdcc_suspend enter
+<6>[21937.568908] bravo_sdslot_switchvdd: Disabling SD slot power
+<6>[21937.569488] mmc1: msmsdcc_suspend leave
+<6>[21937.569610] mmc0: msmsdcc_suspend enter
+<6>[21937.569824] mmc0: msmsdcc_suspend leave
+<6>[21937.570037] PM: suspend of devices complete after 16.262 msecs
+<6>[21937.579254] [GSNR] Gsensor disable
+<6>[21937.579498] PM: late suspend of devices complete after 9.366 msecs
+<6>[21937.579498] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21937.579498] [R] suspend end
+<6>[21937.579498] [R] resume start
+<6>[21937.579498] SMEM_APPS_DEM_SLAVE_DATA: 591s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21937.579498] wakeup wake lock: SMD_DATA5
+<6>[21937.583831] [GSNR] Gsensor enable
+<6>[21937.589935] PM: early resume of devices complete after 10.099 msecs
+<6>[21937.590179] mmc0: msmsdcc_resume enter
+<6>[21937.590423] mmc0: msmsdcc_resume leave
+<6>[21937.590606] mmc1: msmsdcc_resume enter
+<6>[21937.590759] mmc1: msmsdcc_resume leave
+<3>[21937.593994] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21937.598785] PM: resume of devices complete after 8.694 msecs
+<4>[21937.599578] Restarting tasks ... done.
+<6>[21937.632415] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 221 - 0 0 - 0 0 0 0 0(2011-11-06 02:02:34.533882945 UTC)
+<6>[21937.632629] suspend: exit suspend, ret = 0 (2011-11-06 02:02:34.534126891 UTC)
+<6>[21937.634460] [R] resume end
+<6>[21937.634582] [R] suspend start
+<6>[21937.733093] batt: Battery check overridden
+<6>[21937.733215] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=241C(1/10)
+<6>[21938.333648] [R] suspend start
+<4>[21938.334350] mmc1: Starting deferred resume
+<6>[21938.340270] bravo_sdslot_switchvdd: Setting level to 2850 (Success)
+<4>[21938.698944] mmc1: high speed mode max_dtr = 50000000
+<6>[21938.699432] mmc1: Deferred resume completed
+<6>[21938.768676] PM: Syncing filesystems ... done.
+<6>[21938.769866] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 8 221 - 0 0 - 0 0 0 0 0(2011-11-06 02:02:35.670880221 UTC)
+<4>[21938.770050] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21938.793243] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21938.820922] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21938.822662] mmc1: msmsdcc_suspend enter
+<6>[21938.822814] bravo_sdslot_switchvdd: Disabling SD slot power
+<6>[21938.823364] mmc1: msmsdcc_suspend leave
+<6>[21938.823486] mmc0: msmsdcc_suspend enter
+<6>[21938.823608] mmc0: msmsdcc_suspend leave
+<6>[21938.823913] PM: suspend of devices complete after 9.916 msecs
+<6>[21938.833221] [GSNR] Gsensor disable
+<6>[21938.833404] PM: late suspend of devices complete after 9.366 msecs
+<6>[21938.833404] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21938.833404] [R] suspend end
+<6>[21938.833404] [R] resume start
+<6>[21938.833404] SMEM_APPS_DEM_SLAVE_DATA: 591s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21938.833404] wakeup wake lock: SMD_DATA5
+<6>[21938.837799] [GSNR] Gsensor enable
+<6>[21938.843444] PM: early resume of devices complete after 9.672 msecs
+<6>[21938.843780] mmc0: msmsdcc_resume enter
+<6>[21938.844024] mmc0: msmsdcc_resume leave
+<6>[21938.844116] mmc1: msmsdcc_resume enter
+<6>[21938.844360] mmc1: msmsdcc_resume leave
+<3>[21938.847625] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21938.851531] PM: resume of devices complete after 7.841 msecs
+<4>[21938.852447] Restarting tasks ... done.
+<6>[21938.873565] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:07:34.522330824 UTC)
+<6>[21938.873779] suspend: exit suspend, ret = 0 (2011-11-06 02:07:34.522544292 UTC)
+<6>[21938.879638] [R] resume end
+<6>[21938.879791] [R] suspend start
+<6>[21938.959442] batt: Battery check overridden
+<6>[21938.959655] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=246C(1/10)
+<6>[21939.533813] [R] suspend start
+<6>[21939.534973] PM: Syncing filesystems ... done.
+<6>[21939.536132] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:07:35.184554738 UTC)
+<4>[21939.536346] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[21939.552917] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<3>[21939.585571] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21939.589019] mmc1: msmsdcc_suspend enter
+<6>[21939.589233] mmc1: msmsdcc_suspend leave
+<6>[21939.589355] mmc0: msmsdcc_suspend enter
+<6>[21939.589660] mmc0: msmsdcc_suspend leave
+<6>[21939.589874] PM: suspend of devices complete after 15.831 msecs
+<6>[21939.599090] [GSNR] Gsensor disable
+<6>[21939.599334] PM: late suspend of devices complete after 9.364 msecs
+<6>[21939.599334] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21939.599334] [R] suspend end
+<6>[21939.599334] [R] resume start
+<6>[21939.599334] SMEM_APPS_DEM_SLAVE_DATA: 407s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21939.599334] wakeup wake lock: SMD_DATA5
+<6>[21939.603240] [GSNR] Gsensor enable
+<6>[21939.609313] PM: early resume of devices complete after 9.639 msecs
+<6>[21939.609649] mmc0: msmsdcc_resume enter
+<6>[21939.609863] mmc0: msmsdcc_resume leave
+<6>[21939.610076] mmc1: msmsdcc_resume enter
+<6>[21939.610229] mmc1: msmsdcc_resume leave
+<3>[21939.613281] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21939.617675] PM: resume of devices complete after 8.082 msecs
+<4>[21939.618499] Restarting tasks ... done.
+<6>[21939.639404] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:28.521987157 UTC)
+<6>[21939.639617] suspend: exit suspend, ret = 0 (2011-11-06 02:09:28.522200606 UTC)
+<6>[21939.645202] [R] resume end
+<6>[21939.645324] [R] suspend start
+<6>[21939.726165] batt: Battery check overridden
+<6>[21939.726318] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=241C(1/10)
+<4>[21939.802124] mmc1: Starting deferred resume
+<6>[21939.808044] bravo_sdslot_switchvdd: Setting level to 2850 (Success)
+<4>[21940.153778] mmc1: high speed mode max_dtr = 50000000
+<6>[21940.154235] mmc1: Deferred resume completed
+<6>[21940.331604] [R] suspend start
+<6>[21940.411468] PM: Syncing filesystems ... 
+<4>[21940.453948] save exit: isCheckpointed 1
+<4>[21940.468048] done.
+<6>[21940.468261] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:29.350523204 UTC)
+<4>[21940.468383] Freezing user space processes ... 
+<3>[21940.473175] Freezing of user space  aborted
+<4>[21940.473999] 
+<4>[21940.474090] Restarting tasks ... done.
+<6>[21940.479949] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:29.362176245 UTC)
+<6>[21940.480133] suspend: exit suspend, ret = -16 (2011-11-06 02:09:29.362389783 UTC)
+<6>[21940.480255] [R] resume end
+<6>[21945.802246] [R] suspend start
+<4>[21945.847381] save exit: isCheckpointed 1
+<6>[21945.888519] PM: Syncing filesystems ... done.
+<6>[21945.889709] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:34.771686284 UTC)
+<4>[21945.889892] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21945.913665] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21945.945404] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21945.949798] mmc1: msmsdcc_suspend enter
+<6>[21945.949951] bravo_sdslot_switchvdd: Disabling SD slot power
+<6>[21945.950683] mmc1: msmsdcc_suspend leave
+<6>[21945.950775] mmc0: msmsdcc_suspend enter
+<6>[21945.950988] mmc0: msmsdcc_suspend leave
+<6>[21945.951232] PM: suspend of devices complete after 17.059 msecs
+<6>[21945.960845] [GSNR] Gsensor disable
+<6>[21945.961090] PM: late suspend of devices complete after 9.765 msecs
+<6>[21945.961090] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21945.961090] [R] suspend end
+<6>[21945.961090] [R] resume start
+<6>[21945.961090] SMEM_APPS_DEM_SLAVE_DATA: 24s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21945.961090] wakeup wake lock: SMD_DATA5
+<6>[21945.965393] [GSNR] Gsensor enable
+<6>[21945.971466] PM: early resume of devices complete after 10.040 msecs
+<6>[21945.971710] mmc0: msmsdcc_resume enter
+<6>[21945.971923] mmc0: msmsdcc_resume leave
+<6>[21945.972106] mmc1: msmsdcc_resume enter
+<6>[21945.972290] mmc1: msmsdcc_resume leave
+<3>[21945.975646] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21945.979827] PM: resume of devices complete after 8.177 msecs
+<4>[21945.980590] Restarting tasks ... done.
+<6>[21945.989013] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:34.871197349 UTC)
+<6>[21945.989196] suspend: exit suspend, ret = 0 (2011-11-06 02:09:34.871410804 UTC)
+<6>[21945.989318] [R] resume end
+<6>[21945.989410] [R] suspend start
+<4>[21946.003265] mmc1: Starting deferred resume
+<6>[21946.009155] bravo_sdslot_switchvdd: Setting level to 2850 (Success)
+<4>[21946.359252] mmc1: high speed mode max_dtr = 50000000
+<6>[21946.359741] mmc1: Deferred resume completed
+<6>[21946.452850] [R] suspend start
+<6>[21946.509643] PM: Syncing filesystems ... done.
+<6>[21946.510803] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:35.392748256 UTC)
+<4>[21946.510986] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21946.533782] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21946.565216] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21946.569183] mmc1: msmsdcc_suspend enter
+<6>[21946.569366] bravo_sdslot_switchvdd: Disabling SD slot power
+<6>[21946.569885] mmc1: msmsdcc_suspend leave
+<6>[21946.569976] mmc0: msmsdcc_suspend enter
+<6>[21946.570190] mmc0: msmsdcc_suspend leave
+<6>[21946.570495] PM: suspend of devices complete after 16.385 msecs
+<6>[21946.579772] [GSNR] Gsensor disable
+<6>[21946.579925] PM: late suspend of devices complete after 9.336 msecs
+<6>[21946.579925] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21946.579925] [R] suspend end
+<6>[21946.579925] [R] resume start
+<6>[21946.579925] SMEM_APPS_DEM_SLAVE_DATA: 23s 2010000 0 0 8 0 30000048 7 RPCCALL 29
+<6>[21946.583526] [GSNR] Gsensor enable
+<6>[21946.589538] PM: early resume of devices complete after 9.581 msecs
+<6>[21946.589813] mmc0: msmsdcc_resume enter
+<6>[21946.590118] mmc0: msmsdcc_resume leave
+<6>[21946.590209] mmc1: msmsdcc_resume enter
+<6>[21946.590393] mmc1: msmsdcc_resume leave
+<6>[21946.593200] wakeup wake lock: SMD_RPCCALL
+<3>[21946.593597] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21946.596740] PM: resume of devices complete after 7.016 msecs
+<4>[21946.597595] Restarting tasks ... done.
+<6>[21946.613189] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:58.516712284 UTC)
+<6>[21946.613372] suspend: exit suspend, ret = 0 (2011-11-06 02:09:58.516925736 UTC)
+<6>[21946.613555] [R] resume end
+<6>[21946.613647] [R] suspend start
+<6>[21946.639434] [R] suspend start
+<6>[21946.640625] PM: Syncing filesystems ... done.
+<6>[21946.642028] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:58.545528511 UTC)
+<4>[21946.642211] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21946.663482] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21946.688751] pm_op(): platform_pm_suspend+0x0/0x64 returns -16
+<3>[21946.688964] PM: Device alarm failed to suspend: error -16
+<3>[21946.689056] PM: Some devices failed to suspend
+<6>[21946.689666] PM: resume of devices complete after 0.426 msecs
+<4>[21946.690338] Restarting tasks ... done.
+<6>[21946.697296] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:58.600756568 UTC)
+<6>[21946.697479] suspend: exit suspend, ret = -16 (2011-11-06 02:09:58.600970033 UTC)
+<6>[21946.697662] [R] resume end
+<6>[21946.697784] [R] suspend start
+<6>[21947.397644] [R] suspend start
+<6>[21947.398803] PM: Syncing filesystems ... done.
+<6>[21947.399963] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:59.303164083 UTC)
+<4>[21947.400146] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21947.423858] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21947.449829] pm_op(): platform_pm_suspend+0x0/0x64 returns -16
+<3>[21947.450012] PM: Device alarm failed to suspend: error -16
+<3>[21947.450134] PM: Some devices failed to suspend
+<6>[21947.450744] PM: resume of devices complete after 0.396 msecs
+<4>[21947.451385] Restarting tasks ... done.
+<6>[21947.459320] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:59.362494596 UTC)
+<6>[21947.459503] suspend: exit suspend, ret = -16 (2011-11-06 02:09:59.362708130 UTC)
+<6>[21947.459686] [R] resume end
+<6>[21947.459808] [R] suspend start
+<6>[21947.643829] [R] suspend start
+<6>[21947.644927] PM: Syncing filesystems ... done.
+<6>[21947.651672] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:09:59.554775838 UTC)
+<4>[21947.651885] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21947.673889] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21947.704742] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21947.708618] mmc1: msmsdcc_suspend enter
+<6>[21947.708740] mmc1: msmsdcc_suspend leave
+<6>[21947.708923] mmc0: msmsdcc_suspend enter
+<6>[21947.709045] mmc0: msmsdcc_suspend leave
+<6>[21947.709259] PM: suspend of devices complete after 14.949 msecs
+<6>[21947.719024] [GSNR] Gsensor disable
+<6>[21947.719177] PM: late suspend of devices complete after 9.732 msecs
+<6>[21947.719177] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21947.719177] [R] suspend end
+<6>[21947.719177] [R] resume start
+<6>[21947.719177] SMEM_APPS_DEM_SLAVE_DATA: 262s 2010000 0 0 1 0 30000048 7 DATA5 29
+<6>[21947.719177] wakeup wake lock: SMD_DATA5
+<6>[21947.723510] [GSNR] Gsensor enable
+<6>[21947.729644] PM: early resume of devices complete after 10.098 msecs
+<6>[21947.729888] mmc0: msmsdcc_resume enter
+<6>[21947.730224] mmc0: msmsdcc_resume leave
+<6>[21947.730316] mmc1: msmsdcc_resume enter
+<6>[21947.730468] mmc1: msmsdcc_resume leave
+<3>[21947.733825] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21947.738525] PM: resume of devices complete after 8.724 msecs
+<4>[21947.739379] Restarting tasks ... done.
+<6>[21947.763397] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:10:01.525160787 UTC)
+<6>[21947.763610] suspend: exit suspend, ret = 0 (2011-11-06 02:10:01.525374243 UTC)
+<6>[21947.763702] [R] resume end
+<6>[21947.763885] [R] suspend start
+<6>[21950.273895] [R] suspend start
+<4>[21950.283782] mmc1: Starting deferred resume
+<6>[21950.289825] bravo_sdslot_switchvdd: Setting level to 2850 (Success)
+<4>[21950.321533] save exit: isCheckpointed 1
+<4>[21950.651794] mmc1: high speed mode max_dtr = 50000000
+<6>[21950.652343] mmc1: Deferred resume completed
+<6>[21950.697387] PM: Syncing filesystems ... done.
+<6>[21950.698669] sleep_stat.1: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:10:04.459805254 UTC)
+<4>[21950.698883] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[21950.724212] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<3>[21950.755157] curcial_oj_poweron:OJ	power	enable(0)
+<6>[21950.759216] mmc1: msmsdcc_suspend enter
+<6>[21950.759490] bravo_sdslot_switchvdd: Disabling SD slot power
+<6>[21950.759979] mmc1: msmsdcc_suspend leave
+<6>[21950.760101] mmc0: msmsdcc_suspend enter
+<6>[21950.760284] mmc0: msmsdcc_suspend leave
+<6>[21950.760528] PM: suspend of devices complete after 15.868 msecs
+<6>[21950.769836] [GSNR] Gsensor disable
+<6>[21950.769989] PM: late suspend of devices complete after 9.277 msecs
+<6>[21950.769989] clks_allow_tcxo_locked_debug: 0 clks are on.
+<6>[21950.769989] [R] suspend end
+<6>[21950.769989] [R] resume start
+<6>[21950.769989] SMEM_APPS_DEM_SLAVE_DATA: 258s 2010000 0 0 40 0 30000048 7 RPCCALL 29
+<6>[21950.769989] wakeup wake lock: SMD_RPCCALL
+<6>[21950.770202] [BATT] M2A_RPC: cable_update: none at 21947937274325 (2011-11-06 02:10:04.531581828 UTC)
+<6>[21950.770507] [BATT] htc_cable_status_update: 2 -> 0
+<6>[21950.770690] [USB] msm_hsusb_set_vbus_state: 0
+<6>[21950.770812] [USB] hsusb: ONLINE -> OFFLINE
+<6>[21950.770904] [USB] lpm exit
+<6>[21950.772186] [HTC_BATT] cable change to 0
+<6>[21950.772308] [BATT] ds2784_notify: 0 0 at 21947939288465 (2011-11-06 02:10:04.533687519 UTC)
+<6>[21950.772583] [BATT] charger OFF at 21947939563120 (2011-11-06 02:10:04.533962175 UTC)
+<6>[21950.772827] [BATT] (htc_cable_status_update)power_supply_changed: battery at 21947939898810 (2011-11-06 02:10:04.534206313 UTC)
+<6>[21950.777069] [GSNR] Gsensor enable
+<6>[21950.782867] PM: early resume of devices complete after 9.582 msecs
+<6>[21950.783142] mmc0: msmsdcc_resume enter
+<6>[21950.783447] mmc0: msmsdcc_resume leave
+<6>[21950.783569] [USB] handle_notify_offline: notify offline
+<6>[21950.783721] bravo_usb_phy_reset
+<6>[21950.783905] msm_hsusb_phy_reset
+<6>[21950.784088] mmc1: msmsdcc_resume enter
+<6>[21950.784240] mmc1: msmsdcc_resume leave
+<3>[21950.785949] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21950.787597] PM: resume of devices complete after 4.547 msecs
+<4>[21950.788330] Restarting tasks ... mmc1: Starting deferred resume
+<6>[21950.804962] bravo_sdslot_switchvdd: Setting level to 2850 (Success)
+<4>[21950.820404] done.
+<6>[21950.820556] sleep_stat.2: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:12:30.533264125 UTC)
+<6>[21950.821868] suspend: exit suspend, ret = 0 (2011-11-06 02:12:30.534576382 UTC)
+<6>[21950.821990] [R] resume end
+<6>[21950.822174] [R] suspend start
+<6>[21950.843200] [USB] lpm enter
+<6>[21950.843322] [USB] usb_suspend_phy
+<6>[21950.844512] [USB] send connect type 0
+<6>[21950.844696] fsg_set_ums_state: 0
+<6>[21950.844818] [BATT] online=0
+<6>[21950.844909] [HTC_BATT] cable change to 0
+<6>[21950.908081] batt: Battery check overridden
+<6>[21950.908203] [HTC_BATT]RSNSP=255,RARC=100,Vol=3923mV,Current=44mA,Temp=246C(1/10)
+<4>[21951.184204] mmc1: high speed mode max_dtr = 50000000
+<6>[21951.184661] mmc1: Deferred resume completed
+<6>[21951.485748] microp_led_pwm_brightness_set, data[1] = 255
+<6>[21951.487854] request_suspend_state: wakeup (3->0) at 21948654444050 (2011-11-06 02:12:31.200263127 UTC)
+<6>[21951.488067] [R] late_resume start
+<6>[21951.488189] [DISP]lcdc_resume: resuming
+<7>[21951.510284] [LS][CM3602] lightsensor_ioctl: set value = 1
+<6>[21951.510498] [LS][CM3602] lightsensor_enable
+<7>[21951.510589] [LS][CM3602] lightsensor_enable: microp is suspended
+<6>[21951.563049] [DISP]msmfb: ready, waiting for full update
+<7>[21951.563446] __capella_cm3602_power: Turn the capella_cm3602 power on
+<6>[21951.563659] bravo_ts_power: power 1
+<6>[21951.564819] microp_led_pwm_brightness_set, data[1] = 255
+<6>[21951.640106] [DISP]msmfb: pan_update in state(1)
+<6>[21951.640136] [DISP]msmfb: full update starting
+<6>[21951.647613] [DISP]msmfb: pan_update in state(3)
+<6>[21951.663116] [DISP]msmfb: full update completed
+<6>[21951.663177] [DISP]msmfb: turning on panel
+<6>[21951.663177] [DISP]lcdc_unblank: ()
+<6>[21951.708801] sleep_stat.3: 864733ms 1630 864733ms 1630 - 17 8 223 - 0 0 - 0 0 0 0 0(2011-11-06 02:12:31.421107447 UTC)
+<3>[21951.711486] curcial_oj_poweron:OJ	power	enable(0)
+<3>[21951.753540] curcial_oj_late_resume: enter
+<3>[21951.755584] curcial_oj_poweron:OJ	power	enable(1)
+<6>[21951.960449] OpticalJoystick Device ID: 0d
+<6>[21951.964294] OJ Driver: Revision : 02
+<6>[21951.967864] [R] late_resume end
+<6>[21952.359008] [LS][CM3602] ALS value: 0x0, level: 1 #
+<6>[21952.366943] [LS][CM3602] ALS value: 0x0, level: 1 #
+<6>[21953.102874] [GSNR] Gsensor enable
+<6>[21957.007324] [BATT] M2A_RPC: cable_update: USB at 21954173597495 (2011-11-06 02:12:36.719416572 UTC)
+<6>[21957.007354] [BATT] htc_cable_status_update: 0 -> 1
+<6>[21957.007385] [USB] msm_hsusb_set_vbus_state: 1
+<6>[21957.007385] [HTC_BATT] cable change to 1
+<6>[21957.007385] [BATT] ds2784_notify: 0 1 at 21954173689048 (2011-11-06 02:12:36.719477607 UTC)
+<6>[21957.007415] [BATT] charger ON (SLOW) at 21954173689048 (2011-11-06 02:12:36.719508125 UTC)
+<6>[21957.007476] [USB] hsusb: OFFLINE -> ONLINE
+<6>[21957.007476] [USB] lpm exit
+<6>[21957.008636] [USB] hsusb: reset controller
+<6>[21957.043792] bravo_usb_phy_reset
+<6>[21957.043792] msm_hsusb_phy_reset
+<6>[21957.233795] [USB] ulpi: write 0x0c to 0x31
+<6>[21957.233917] [USB] ulpi: write 0x31 to 0x32
+<6>[21957.234100] [USB] ulpi: write 0x1d to 0x0d
+<6>[21957.234191] [USB] ulpi: write 0x1d to 0x10
+<6>[21957.234313] [USB] handle_notify_offline: notify offline
+<6>[21957.235076] [USB] msm_hsusb: enable pullup
+<6>[21957.238189] [USB] suspend
+<6>[21957.253814] [USB] not AC charger
+<6>[21957.553833] [USB] send connect type -1
+<6>[21957.553833] fsg_set_ums_state: 1
+<6>[21957.553863] [BATT] online=1
+<6>[21957.553863] [HTC_BATT] cable change to 1
+<6>[21957.600189] [USB] reset
+<6>[21957.600372] [USB] send connect type 1
+<6>[21957.600494] fsg_set_ums_state: 1
+<6>[21957.600646] ums: set state 1
+<6>[21957.601257] [BATT] online=1
+<6>[21957.601409] [HTC_BATT] cable change to 1
+<6>[21957.602447] [USB] portchange USB_SPEED_HIGH
+<6>[21957.675323] [USB] reset
+<6>[21957.677581] [USB] portchange USB_SPEED_HIGH
+<6>[21957.792572] android_usb gadget: high speed config #1: android
+<6>[21957.792633] adb_function_set_alt: maxsize = 512
+<6>[21957.793945] ums: set state 1

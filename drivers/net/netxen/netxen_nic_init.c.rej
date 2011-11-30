@@ -1,0 +1,10 @@
+--- drivers/net/netxen/netxen_nic_init.c
++++ drivers/net/netxen/netxen_nic_init.c
+@@ -971,7 +971,6 @@
+ 	NX_P2_MN_ROMIMAGE_NAME,
+ 	NX_P3_CT_ROMIMAGE_NAME,
+ 	NX_P3_MN_ROMIMAGE_NAME,
+-	NX_UNIFIED_ROMIMAGE_NAME,
+ 	NX_FLASH_ROMIMAGE_NAME,
+ };
+ 
